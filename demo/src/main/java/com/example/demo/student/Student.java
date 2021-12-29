@@ -1,8 +1,14 @@
 package com.example.demo.student;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.time.LocalDate;
 
+@Entity
+@Table
 public class Student {
+
+
   private Long id;
   private String name;
   private String email;
